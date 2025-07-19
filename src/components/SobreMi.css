@@ -1,0 +1,51 @@
+.hover-brillo {
+  line-height: 0.5;
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-brillo:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+.hover-brillo1 {
+  line-height: 0.5;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.hover-brillo1:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+.linkStyle:hover {
+  color: #00ffff;
+  text-shadow: 0 0 5px #00ffff;
+  transform: scale(1.05);
+}
+
+.linkStyle {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.hover-brillo3:hover {
+  filter: brightness(1.4);
+  transition: 0.3s ease;
+}
+
+.logo-hover {
+  height: 30px;
+  width: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.logo-hover:hover {
+  transform: scale(1.5);
+}
