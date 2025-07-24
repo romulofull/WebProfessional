@@ -38,4 +38,5 @@ project16: "Default Prediction Model",
 contactEmail: "Email",
 contactLinkedIn: "LinkedIn",
 contactWhatsapp: "Message me",
+ footer: "Developed by "
 };

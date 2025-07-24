@@ -1,0 +1,66 @@
+
+.contacto-section {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  min-height: 60vh;
+  margin-left: 9rem;
+  font-size: 1rem;
+   margin-bottom: 0;
+}
+
+
+.overlay4 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+  line-height: 1;
+  font-size: 1.8rem;
+ 
+
+}
+
+/* Efecto hover opcional */
+.hover-brillo3 a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+.hover-brillo3 a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.contact-footer {
+  background-color: black;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  position: relative;
+  margin-top: 0;
+  z-index: 10;
+
+}
+
+/* ✅ Estilo responsive para móviles */
+@media (max-width: 768px) {
+  .contacto-section {
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .overlay4 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  .contact-footer {
+    font-size: 0.9rem;
+  }
+}

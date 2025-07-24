@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-   <div style={{ position: 'absolute', top: '10px', right: '10px', zIndex: 999 }}>
+   <div style={{ position: 'absolute', top: '10px', right: '10px', zIndex: 1999 }}>
   <select onChange={(e) => setLanguage(e.target.value)} value={language}>
     <option value="es">🇪🇸 Español</option>
     <option value="en">🇬🇧 English</option>

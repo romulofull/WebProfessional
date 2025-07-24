@@ -37,5 +37,6 @@ export default {
     contactTitle: "Contacto",
   contactEmail: "Correo",
   contactLinkedIn: "LinkedIn",
-  contactWhatsapp: "Escríbeme"
+  contactWhatsapp: "Escríbeme",
+  footer: "Desarrollado por "
 };

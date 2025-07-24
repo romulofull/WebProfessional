@@ -3,10 +3,10 @@ import React from 'react';
 import './projects.css';
 
 const Proyectos = ({ t }) => (
-  <section id="proyectos" style={{ padding: '8rem', color: 'white',    background: 'black',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center', marginTop: '-6rem' }}>
-    <h2 style={{fontSize: '2rem', marginLeft: '3rem'}}>{t.projects}</h2>
+  <section id="proyectos" style={{ color: 'white', background: 'black',
+      backgroundSize: 'cover', paddingTop: '8rem',
+      backgroundPosition: 'center', marginTop: '-6rem', marginBottom: '0rem' }}>
+    <h2 className="nameProyectos">{t.projects}</h2>
     <div
       style={{
         display: 'grid',

@@ -11,6 +11,8 @@
 .hover-brillo1 {
   line-height: 0.5;
   transition: all 0.3s ease-in-out;
+  padding-left: 9rem;
+
 
 }
 
@@ -49,3 +51,172 @@
 .logo-hover:hover {
   transform: scale(1.5);
 }
+
+.navLinks {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1.5rem;
+  margin-right: 15vw;
+}
+
+.sobreMi {
+  padding-left: 10rem;
+}
+
+.overlay { 
+  background-color: rgba(0,0,0,0.5);
+   height: 100%;
+   font-size: 3.2rem;
+    line-Height: 0.6;
+    width: 100%;
+    top: 0;
+    position: absolute
+   
+  }
+
+.overlay6 {
+   font-size: 1.5rem;
+}
+ 
+.hero {
+  padding-Top: 0.8rem;
+    color: white;
+    text-Align: center;
+    display: flex;
+    justify-Content: center;
+    background-Size: contain;
+    align-Items: center;
+ position: relative;
+     min-Height: 40vh 
+}
+
+.overlay9 {
+  background-color: 'rgba(0,0,0,0.5)'; width: '100%'
+}
+
+@media (max-width: 768px) {
+ 
+
+  .logo-hover {
+    height: 25px !important;
+    width: 40px !important;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .overlay1 {
+ font-size: 2.5rem;
+ margin-top: 3rem;
+ display: flex;
+ justify-content: center;  /* Centra horizontalmente */
+  align-items: center;  
+   box-sizing: border-box;
+
+  }
+}
+
+
+@media (max-width: 768px) {
+  .sobreMi {
+    padding-left: 1rem;
+    font-size: 0.5rem;
+
+  }
+
+  .overlay6 {
+    width: 100%;
+    font-size: 1rem;
+    height: 100%
+  }
+
+  .overlay h2 {
+    font-size: 2rem;
+  }
+
+  .hover-brillo {
+    font-size: 1rem;
+    display: flex;
+   line-height: 1;
+
+
+  }
+}
+
+@media (max-width: 768px) {
+
+
+  .servicios .overlay9 {
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  .titulo-servicio {
+    margin-left: 0;
+    font-size: 1.5rem;
+  }
+
+  .hover-brillo1 {
+    font-size: 1rem;
+     padding-left: 0rem;
+
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  nav {
+
+   
+    white-space: nowrap;
+    font-size: 1rem;
+  }
+
+  .hero {
+  
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .hero .overlay {
+    font-size: 1rem;
+  }
+}
+
+
+nav {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+   align-items: center;
+   justify-content: space-between;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+  z-index: 1000;
+}
+
+
+@media (max-width: 768px) {
+
+
+  .navLinks,
+  .socialLinks {
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    gap: 1rem;
+    margin-right: 5vw;
+
+  }
+
+  .linkStyle { 
+      font-size: 0.8rem;
+
+ 
+  }

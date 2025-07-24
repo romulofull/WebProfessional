@@ -37,4 +37,5 @@ project16: "Zahlungsausfall-Modell",
 contactEmail: "E-Mail",
 contactLinkedIn: "LinkedIn",
 contactWhatsapp: "Schreib mir",
+footer: "Entwickelt von "
 };
