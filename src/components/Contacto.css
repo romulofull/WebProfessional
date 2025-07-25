@@ -7,6 +7,7 @@
   margin-left: 9rem;
   font-size: 1rem;
    margin-bottom: 0;
+    text-align: left;
 }
 
 
@@ -22,7 +23,7 @@
 
 }
 
-/* Efecto hover opcional */
+
 .hover-brillo3 a {
   color: #00ffff;
   text-decoration: none;

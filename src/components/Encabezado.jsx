@@ -13,7 +13,7 @@ const Encabezado = ({ t }) => {
     <nav  className="navbar">
     
       <div>
-  <img src="/logo.png" alt="Logo" className="logo-hover"  style={{ height: '30px', width: '50px', borderRadius: '10px',  objectFit: 'cover' }} />
+  <img src="/logo.png"  className="logo-hover" />
 </div>
 
      <div className= "navLinks">
@@ -37,7 +37,7 @@ const Encabezado = ({ t }) => {
   }}>
   <div className="overlay">
     <h1 className="overlay1">{t.welcome}</h1>
-    <div  style={{ marginTop: '-5vh'}}>
+    <div >
     <p className="overlay1">{t.subtitle}</p>
   </div>
   </div>

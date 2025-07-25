@@ -2,7 +2,7 @@ import { useState } from "react";
 import es from "./language/español";
 import en from "./language/ingles";
 import de from "./language/aleman";
-
+import './App.css'
 import Encabezado from "./components/Encabezado";
 import SobreMi from "./components/SobreMi";
 import Servicios from "./components/Servicios";
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-   <div style={{ position: 'absolute', top: '10px', right: '10px', zIndex: 1999 }}>
+   <div className="idiomas">
   <select onChange={(e) => setLanguage(e.target.value)} value={language}>
     <option value="es">🇪🇸 Español</option>
     <option value="en">🇬🇧 English</option>

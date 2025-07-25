@@ -4,6 +4,12 @@
 }
 #proyectos {
   margin-bottom: 0rem;
+  color: white; 
+  background: black;
+  background-size: cover;
+  padding-top: 8rem;
+  background-position: center;
+  margin-top: -6rem;
 }
 .project-image {
   width: 100%;
@@ -11,12 +17,24 @@
   object-fit: cover;
   border-radius: 20px;
   transition: transform 0.3s ease;
+
 }
   .nameProyectos{
      font-size: 2.5rem;
-     margin-left: 10rem
+     margin-left: 10rem;
+        text-align: left;
+
     
   }
+
+.nameProyectos2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 2rem
+
+}
+
 .project-image:hover {
   transform: scale(1.05);
 }

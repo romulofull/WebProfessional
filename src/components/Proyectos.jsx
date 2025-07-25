@@ -3,150 +3,74 @@ import React from 'react';
 import './projects.css';
 
 const Proyectos = ({ t }) => (
-  <section id="proyectos" style={{ color: 'white', background: 'black',
-      backgroundSize: 'cover', paddingTop: '8rem',
-      backgroundPosition: 'center', marginTop: '-6rem', marginBottom: '0rem' }}>
+  <section id="proyectos" >
     <h2 className="nameProyectos">{t.projects}</h2>
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(4, 1fr)',
-        gap: '2rem',
-        marginTop: '2rem'
-      }}
-    >
+    <div className="nameProyectos2">
       <div className="project-container">
-        <img src="/foto20.png" alt="Proyecto 1" style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-    borderRadius: '20px'
-  }} className="project-image"/>
+        <img src="/foto20.png" alt="Proyecto 1" className="project-image"/>
         <p className="project-text">{t.project1}</p>
       </div>
       <div className="project-container">
-        <img src="/foto17.png" alt="Proyecto 2"  style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-     borderRadius: '20px'
-  }} className="project-image" />
+        <img src="/foto17.png" alt="Proyecto 2"   className="project-image" />
         <p className="project-text">{t.project2}</p>
       </div>
       <div className="project-container">
-        <img src="/foto13.png" alt="Proyecto 3" style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-     borderRadius: '20px'
-  }} className="project-image" />
+        <img src="/foto13.png" alt="Proyecto 3"  className="project-image" />
         <p className="project-text">{t.project3}</p>
       </div>
       <div className="project-container">
-        <img src="/foto6.png" alt="Proyecto 4" style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-     borderRadius: '20px'}} className="project-image"/>
+        <img src="/foto6.png"  className="project-image"/>
         <p className="project-text">{t.project4}</p>
       </div>
 
       <div className="project-container">
-        <img src="/foto2.png" alt="Proyecto 5"  style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-     borderRadius: '20px'}} className="project-image"/>
+        <img src="/foto2.png"  className="project-image"/>
         <p className="project-text">{t.project5}</p>
       </div>
       <div className="project-container">
-        <img src="/foto11.png" alt="Proyecto 6" style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-     borderRadius: '20px'}} className="project-image" />
+        <img src="/foto11.png" className="project-image" />
         <p className="project-text">{t.project6}</p>
       </div>
       <div className="project-container">
-        <img src="/foto12.png" alt="Proyecto 7"  style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-     borderRadius: '20px'}} className="project-image"/>
+        <img src="/foto12.png" alt="Proyecto 7"  className="project-image"/>
         <p className="project-text">{t.project7}</p>
       </div>
       <div className="project-container">
-        <img src="/foto19.png" alt="Proyecto 8"  style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-     borderRadius: '20px'}} className="project-image"/>
+        <img src="/foto19.png" alt="Proyecto 8" className="project-image"/>
         <p className="project-text">{t.project8}</p>
       </div>
 
       <div className="project-container">
-        <img src="/foto30.png" alt="Proyecto 9"  style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-     borderRadius: '20px'}} className="project-image"/>
+        <img src="/foto30.png" alt="Proyecto 9"  className="project-image"/>
         <p className="project-text">{t.project9}</p>
       </div>
       <div className="project-container">
-        <img src="/foto21.png" alt="Proyecto 10"  style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-     borderRadius: '20px'}} className="project-image" />
+        <img src="/foto21.png" alt="Proyecto 10"  className="project-image" />
         <p className="project-text">{t.project10}</p>
       </div>
       <div className="project-container">
-        <img src="/images.jpeg" alt="Proyecto 11"  style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-    borderRadius: '20px'}}  className="project-image"/>
+        <img src="/images.jpeg" alt="Proyecto 11" className="project-image"/>
         <p className="project-text">{t.project11}</p>
       </div>
       <div className="project-container">
-        <img src="/foto16.png" alt="Proyecto 12" style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-    borderRadius: '20px'}} className="project-image"/>
+        <img src="/foto16.png" alt="Proyecto 12" className="project-image"/>
         <p className="project-text">{t.project12}</p>
       </div>
 
       <div className="project-container">
-        <img src="/foto8.png" alt="Proyecto 13" style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-    borderRadius: '20px'}} className="project-image"/>
+        <img src="/foto8.png" alt="Proyecto 13"className="project-image"/>
         <p className="project-text">{t.project13}</p>
       </div>
       <div className="project-container">
-        <img src="/correospam.jpg" alt="Proyecto 14"  style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-    borderRadius: '20px'}} className="project-image"/>
+        <img src="/correospam.jpg" alt="Proyecto 14" className="project-image"/>
         <p className="project-text">{t.project14}</p>
       </div>
       <div className="project-container">
-        <img src="/mundial.jpg" alt="Proyecto 15" style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-    borderRadius: '20px'}} className="project-image"/>
+        <img src="/mundial.jpg" alt="Proyecto 15" className="project-image"/>
         <p className="project-text">{t.project15}</p>
       </div>
       <div className="project-container">
-        <img src="/morosidad.jpg" alt="Proyecto 16"  style={{
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-    borderRadius: '20px'}} className="project-image"/>
+        <img src="/morosidad.jpg" alt="Proyecto 16"  className="project-image"/>
         <p className="project-text">{t.project16}</p>
       </div>
     </div>
