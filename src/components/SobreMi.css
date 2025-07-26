@@ -11,8 +11,9 @@
 .hover-brillo1 {
   line-height: 1;
   transition: all 0.3s ease-in-out;
-  padding-left: 10rem;
+  padding-left: 9rem;
  text-align: left;
+ font-size: 1.5rem;
 
 }
 
@@ -73,6 +74,7 @@
   background: black;
   background-Size: cover;
    text-align: left;
+   display: flex;
   background-repeat: no-repeat;
   color: white; 
 }
@@ -105,20 +107,26 @@
 }
 
 
-.servicios {
-  padding-top: 3rem;
+#servicios {
+  padding-top: 2rem;
   padding: 1rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: white
+  color: white;
+   font-family: 'Georgia', 'Times New Roman', serif;
+  
 }
-.overlay9 {
+.overlay9 h2{
   background-color: rgba(0,0,0,0.5); 
   width: 100%; 
   height: 100%; 
-  font-size: 1.5rem;
-  padding: 1rem
+  font-size: 2.5rem;
+  padding: 1rem;
+ font-weight: bold;
+ display: flex;
+  flex-direction: column;
+   padding-left: 9rem
 }
 
 @media (max-width: 768px) {
@@ -148,16 +156,18 @@
   .sobreMi {
     padding-left: 1rem;
     font-size: 0.5rem;
+     padding: 1.5rem 1rem;
 
   }
 
   .overlay6 {
     width: 100%;
     font-size: 1rem;
-    height: 100%
+    height: 100%;
+    gap: 1rem;
   }
 
-  .overlay h2 {
+  .sobreMi h2 {
     font-size: 2rem;
   }
 
@@ -165,7 +175,6 @@
     font-size: 1rem;
     display: flex;
    line-height: 1;
-
 
   }
 }
@@ -189,6 +198,10 @@
      padding-left: 0rem;
 
   }
+
+  .overlay9 h2 {
+      padding-left: 1rem
+  }
 }
 
 
@@ -203,6 +216,7 @@
   
     padding: 2rem 1rem;
     text-align: center;
+    height: 20vh;
   }
 
   .hero .overlay {
@@ -229,16 +243,27 @@ nav {
 
   .navLinks,
   .socialLinks {
-    padding: 1rem 0;
-    font-size: 0.8rem;
-    gap: 1rem;
-    margin-right: 5vw;
-
+    padding: 0;
+    font-size: 1rem;
+    text-align: left;
+  
+  
   }
 
   .linkStyle { 
-      font-size: 0.8rem;
+      font-size: 1rem;
+      text-align: left;
 
  
+  }
+
+    .navbar {
+    flex-direction: column;
+    text-align: left;
+    }
+
+    .navLinks {
+  
+    margin: 1rem 0;
   }
 }
