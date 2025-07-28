@@ -1,6 +1,7 @@
 .hover-brillo {
   line-height: 1;
   transition: all 0.3s ease-in-out;
+  
 }
 
 .hover-brillo:hover {
@@ -46,8 +47,8 @@
 }
 
 .logo-hover {
-  height: 30px;
-  width: 50px;
+  height: 40px;
+  width: 60px;
   border-radius: 10px;
   object-fit: cover;
   transition: transform 0.3s ease;
@@ -81,11 +82,8 @@
 
 .overlay { 
   background-color: rgba(0,0,0,0.5);
-   height: 100%;
    font-size: 3.2rem;
     line-Height: 0.6;
-    width: 100%;
-    top: 0;
     position: absolute
    
   }
@@ -100,10 +98,10 @@
     text-Align: center;
     display: flex;
     justify-Content: center;
-    background-Size: contain;
+    background-Size: cover;
     align-Items: center;
  position: relative;
-     min-Height: 40vh 
+     height: 40vh 
 }
 
 
@@ -125,7 +123,7 @@
   padding: 1rem;
  font-weight: bold;
  display: flex;
-  flex-direction: column;
+ 
    padding-left: 9rem
 }
 
@@ -141,13 +139,19 @@
 @media (max-width: 768px) {
 
   .overlay1 {
- font-size: 2.5rem;
+ font-size: 1.8rem;
  margin-top: 3rem;
  display: flex;
  justify-content: center;  /* Centra horizontalmente */
   align-items: center;  
    box-sizing: border-box;
+   
 
+  }
+
+  .overlay {
+
+     font-size: 1.8rem;
   }
 }
 
@@ -157,7 +161,7 @@
     padding-left: 1rem;
     font-size: 0.5rem;
      padding: 1.5rem 1rem;
-
+ word-wrap: break-word;
   }
 
   .overlay6 {
@@ -173,9 +177,11 @@
 
   .hover-brillo {
     font-size: 1rem;
-    display: flex;
+    display: block;
    line-height: 1;
-
+     word-break: break-word; 
+     white-space: normal;  
+  margin-right: 0.8rem;
   }
 }
 
@@ -188,6 +194,9 @@
     line-height: 1.4;
   }
 
+  #servicios {
+  padding-top: -6rem;
+  }
   .titulo-servicio {
     margin-left: 0;
     font-size: 1.5rem;
@@ -196,11 +205,16 @@
   .hover-brillo1 {
     font-size: 1rem;
      padding-left: 0rem;
+     display: flex;
+     flex-wrap: wrap;
+       margin-right: 0.5rem;
 
   }
 
   .overlay9 h2 {
-      padding-left: 1rem
+      padding-left: 1rem;
+      margin-bottom: -1rem;
+      font-size: 2rem;
   }
 }
 
@@ -216,7 +230,8 @@
   
     padding: 2rem 1rem;
     text-align: center;
-    height: 20vh;
+    height:15vh
+  
   }
 
   .hero .overlay {
@@ -241,29 +256,29 @@ nav {
 @media (max-width: 768px) {
 
 
-  .navLinks,
   .socialLinks {
     padding: 0;
     font-size: 1rem;
     text-align: left;
-  
-  
+     margin-left: -3rem;
+
   }
 
-  .linkStyle { 
-      font-size: 1rem;
-      text-align: left;
-
- 
+  .navLinks {
+ font-size: 1rem;
+ margin-left: -3rem;
+ gap: 1rem;
   }
+
+  .logo-hover {
+    margin-left: -80px
+  }
+
 
     .navbar {
     flex-direction: column;
     text-align: left;
     }
 
-    .navLinks {
   
-    margin: 1rem 0;
-  }
 }

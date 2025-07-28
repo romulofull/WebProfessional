@@ -8,6 +8,7 @@
   font-size: 1rem;
    margin-bottom: 0;
     text-align: left;
+      overflow-wrap: break-word;
 }
 
 
@@ -19,6 +20,9 @@
   width: 100%;
   line-height: 1;
   font-size: 1.8rem;
+   width: 100%;
+  box-sizing: border-box;
+
  
 
 }
@@ -53,18 +57,21 @@
     margin-top: 0;
     margin-left: 0;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 0.7rem;
+     width: 100%;
   }
 
   .overlay4 {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     line-height: 1;
   }
 
   .contact-footer {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     display: flex;
     justify-content: center;
+      padding-left: 0rem;
+      margin-left: 0rem
 
   }
 }

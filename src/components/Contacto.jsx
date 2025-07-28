@@ -25,7 +25,7 @@ const Contacto = ({ t }) => (
     </section>
 
     <footer className="contact-footer">
-      {t.footer}<strong>FullDeveloper Rómulo</strong> © 2023
+      {t.footer}<strong> FullDeveloper Rómulo</strong> © 2023
     </footer>
   </div>
 );
